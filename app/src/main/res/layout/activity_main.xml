@@ -1,0 +1,73 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+
+    <Button
+        android:id="@+id/buttonPanti"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="11dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="15dp"
+        android:text="Panti" />
+
+    <Button
+        android:id="@+id/BtnDonatur"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/buttonPanti"
+        android:layout_alignBottom="@+id/buttonPanti"
+        android:layout_marginLeft="13dp"
+        android:layout_marginStart="13dp"
+        android:layout_toEndOf="@+id/buttonPanti"
+        android:layout_toRightOf="@+id/buttonPanti"
+        android:text="Donatur" />
+
+
+    <Button
+        android:id="@+id/buttonJenis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/BtnDonatur"
+        android:layout_alignBottom="@+id/BtnDonatur"
+        android:layout_marginLeft="13dp"
+        android:layout_marginStart="13dp"
+        android:layout_toEndOf="@+id/BtnDonatur"
+        android:layout_toRightOf="@+id/BtnDonatur"
+        android:text="Jenis Donasi" />
+
+    <Button
+        android:id="@+id/buttonLaporan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/buttonPanti"
+        android:layout_alignStart="@+id/buttonPanti"
+        android:layout_below="@+id/buttonPanti"
+        android:layout_marginTop="15dp"
+        android:text="Laporan" />
+
+    <Button
+        android:id="@+id/buttonDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/buttonAdmin"
+        android:layout_alignBottom="@+id/buttonAdmin"
+        android:layout_alignLeft="@+id/buttonJenis"
+        android:layout_alignStart="@+id/buttonJenis"
+        android:text="Detail" />
+
+    <Button
+        android:id="@+id/buttonAdmin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/buttonLaporan"
+        android:layout_alignBottom="@+id/buttonLaporan"
+        android:layout_alignLeft="@+id/BtnDonatur"
+        android:layout_alignStart="@+id/BtnDonatur"
+        android:text="Admin" />
+</RelativeLayout>

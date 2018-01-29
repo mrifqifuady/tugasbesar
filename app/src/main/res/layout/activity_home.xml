@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/imageViewPanti"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="56dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="48dp"
+        app:srcCompat="@drawable/panti" />
+
+    <ImageView
+        android:id="@+id/imageViewJenis"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/imageViewPanti"
+        android:layout_marginEnd="19dp"
+        android:layout_marginRight="19dp"
+        app:srcCompat="@drawable/jenis" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/imageViewJenis"
+        android:layout_alignLeft="@+id/imageViewJenis"
+        android:layout_alignStart="@+id/imageViewJenis"
+        android:text="Jenis Donasi"
+        android:textSize="18dp" />
+
+    <ImageView
+        android:id="@+id/imageViewLaporan"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignLeft="@+id/imageViewJenis"
+        android:layout_alignStart="@+id/imageViewJenis"
+        android:layout_below="@+id/textView4"
+        app:srcCompat="@drawable/laporan" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/imageViewLaporan"
+        android:layout_alignRight="@+id/imageViewLaporan"
+        android:layout_below="@+id/imageViewJenis"
+        android:layout_marginEnd="18dp"
+        android:layout_marginRight="18dp"
+        android:layout_marginTop="70dp"
+        android:text="Donasi"
+        android:textSize="18dp" />
+
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView3"
+        android:layout_alignBottom="@+id/textView3"
+        android:layout_alignEnd="@+id/imageViewPanti"
+        android:layout_alignRight="@+id/imageViewPanti"
+        android:text="Daftar Panti"
+        android:textSize="18dp" />
+
+    <ImageView
+        android:id="@+id/imageViewBulan"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignLeft="@+id/textView6"
+        android:layout_alignStart="@+id/textView6"
+        android:layout_below="@+id/textView2"
+        app:srcCompat="@drawable/detail" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/imageViewLaporan"
+        android:layout_alignLeft="@+id/imageViewBulan"
+        android:layout_alignStart="@+id/imageViewBulan"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="5dp"
+        android:text="Rekapitulasi"
+        android:textSize="18dp" />
+
+    <ImageView
+        android:id="@+id/imageViewMaps"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/imageViewBulan"
+        android:layout_marginTop="18dp"
+        android:layout_toEndOf="@+id/imageViewPanti"
+        android:layout_toRightOf="@+id/imageViewPanti"
+        app:srcCompat="@drawable/maps" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageViewMaps"
+        android:layout_marginLeft="5dp"
+        android:layout_marginStart="5dp"
+        android:layout_toEndOf="@+id/textView2"
+        android:layout_toRightOf="@+id/textView2"
+        android:text="Alamat Kami" />
+
+
+</RelativeLayout>

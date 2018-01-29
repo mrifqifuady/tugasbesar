@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/txt_id_donasi"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/editbox_background_normal"/>
+    <EditText
+        android:id="@+id/txt_id_donatur"
+        android:visibility="gone"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:hint="id donatur"
+        android:singleLine="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/editbox_background_normal"/>
+    <EditText
+        android:id="@+id/txt_id_panti"
+        android:visibility="gone"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:hint="id panti"
+        android:singleLine="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/editbox_background_normal"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:text="Jenis Donasi : " />
+
+    <Spinner
+        android:id="@+id/spin_id_jenis_donasi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:hint="id jenis"/>
+    <EditText
+        android:id="@+id/txt_jumlah"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:hint="jumlah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/editbox_background_normal"/>
+    <EditText
+        android:id="@+id/txt_keterangan"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:hint="keterangan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/editbox_background_normal"/>
+    <EditText
+        android:id="@+id/txt_tanggal"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:hint="tgl"
+        android:visibility="gone"
+        android:singleLine="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/editbox_background_normal"/>
+    <Spinner
+        android:visibility="gone"
+        android:id="@+id/spin_id_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:hint="id status">
+
+    </Spinner>
+</LinearLayout>
